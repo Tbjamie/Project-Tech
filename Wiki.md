@@ -363,6 +363,26 @@ console.log(paarNamen);
 
 ### Les 2
 
+In de tweede les van deze week hebben we geleerd wat GIT en Github is en hoe je deze kan gebruiken.
+Ik heb uit deze les gehaald dat GIT erg handig is voor version control en samenwerken en ik zal ook zeker proberen om dit vanaf nu te gaan implementeren in mijn werk.
+Ook hebben we het gehad over repositories in Github en daarvan heb ik voor dit project ook eentje aangemaakt.
+
+![Afbeelding van een Github repository](https://static.codex.so/upload/redactor_images/o_602d344e24f1f5ac13cb05022089101e.jpg)
+bron: [codex.so](https://codex.so/fork-and-pull-en)
+
+Ook heb ik deze Wiki aangemaakt in deze les, de README.md en ben ik begonnen met de LICENSE.
+Hiervoor hebben we gekeken naar andere repositories op Github om zo te kijken wat er allemaal in deze dingen moet komen te staan.
+De belangrijkste dingen zijn:
+
+* Titel project
+* Inhoudsopgave
+* Samenvatting van wat het project is
+* Handleiding opzetten
+* Libraries
+* Contributors
+* Versie
+* License
+
 ### Les 3
 
 ### Les 4
