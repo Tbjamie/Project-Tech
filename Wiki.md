@@ -384,6 +384,117 @@ De belangrijkste dingen zijn:
 * Versie
 * License
 
+<br>
+
 ### Les 3
+
+Bij de derde les zijn we bezig gegaan met het opfrissen van onze JavaScript kennis. Hierbij waren er 3 verschillende oefeningen die ik gemaakt heb. Deze oefeningen gingen over:
+
+* Functies (parameters, return, arrow functies)
+* Objecten (dot & bracket notatie)
+* Loops
+* import and export
+
+<br> **De code hiervan is:**
+
+<details>
+ <summary>OEFENING 6</summary> <br>
+ 
+ ```javascript
+ /* Met de toetscombinatie [CMD] + [/] kun je '//' voor de regel weghalen en terugplaatsen */
+
+/* OPDRACHT 1: Toon een Groetbericht */
+// Schrijf een functie-expressie met de naam toonGroet die een groetbericht naar de console logt. De functie accepteert één parameter, naam, en toont een groetbericht met de opgegeven naam.
+
+let toonGroet = function(naam) {
+  console.log("Hallo " + naam + "!");
+}
+
+toonGroet("Jamie");
+
+/* OPDRACHT 2: Tel getallen op en log het resultaat */
+// Schrijf een functie-expressie met de naam telOpEnLog die twee getallen optelt en het resultaat naar de console logt. De functie accepteert twee parameters, getal1 en getal2, telt ze op en logt het resultaat.
+
+let telOpEnLog = function(getal1, getal2) {
+  console.log(getal1 + getal2);
+}
+
+telOpEnLog(2, 8);
+
+// Onderstaande opdrachten vereisen het gebruik van het return sleutelwoord
+
+/* OPDRACHT 3: Bereken de Oppervlakte van een Rechthoek */
+// Schrijf een functie-expressie met de naam `berekenOppervlakteRechthoek` die de oppervlakte van een rechthoek berekent. De functie accepteert twee parameters, `lengte` en `breedte`.
+
+let berekenOppervlakteRechthoek = function(lengte, breedte) {
+  return lengte * breedte;
+}
+
+console.log(berekenOppervlakteRechthoek(3, 4))
+
+/* OPDRACHT 4: Bepaal of een Getal Even is */
+// Schrijf een functie-expressie met de naam `isEven` die controleert of een gegeven getal even is. De functie accepteert één parameter, `getal`.
+
+let isEven = function(getal) {
+  if(getal == getal) {
+    console.log("Is even")
+  } else {
+    console.log("Is oneven")
+  }
+}
+
+isEven(3);
+
+/* OPDRACHT 5: Concateneer Twee Strings */
+// Schrijf een functie-expressie met de naam `concateneerStrings` die twee strings concateneert. De functie accepteert twee parameters, `string1` en `string2`.
+
+let concateneerStrings = function(string1, string2) {
+  console.log(`${string1} ${string2}`)
+}
+
+concateneerStrings("Welkom,", "Jamie")
+
+/* OPDRACHT 6: Herschrijf functies uit opdracht 1 en 5 naar een arrow functie */
+
+let toonGroetArrow = (naam) => {
+   console.log("Hallo " + naam + "!");
+}
+
+toonGroet("Jamie");
+
+
+let telOpEnLogArrow = (getal1, getal2) => {
+  console.log(getal1 + getal2);
+}
+
+telOpEnLogArrow(2, 8);
+
+
+let berekenOppervlakteRechthoekArrow = (lengte, breedte) => {
+  return lengte * breedte;
+}
+
+console.log(berekenOppervlakteRechthoekArrow(3, 4))
+
+
+let isEvenArrow = (getal) => {
+  if(getal == getal) {
+    console.log("Is even")
+  } else {
+    console.log("Is oneven")
+  }
+}
+
+isEvenArrow(3);
+
+
+let concateneerStringsArrow = (string1, string2) => {
+  console.log(`${string1} ${string2}`)
+}
+
+concateneerStringsArrow("Welkom,", "Jamie");
+```
+
+</details>
 
 ### Les 4
