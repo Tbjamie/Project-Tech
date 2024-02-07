@@ -364,6 +364,7 @@ console.log(paarNamen);
 ### Les 2
 
 In de tweede les van deze week hebben we geleerd wat GIT en Github is en hoe je deze kan gebruiken.
+Ook hebben we aan de hand van [deze video](https://www.youtube.com/watch?v=i_23KUAEtUM) geleerd hoe je GIT in VS code kan gebruiken.
 Ik heb uit deze les gehaald dat GIT erg handig is voor version control en samenwerken en ik zal ook zeker proberen om dit vanaf nu te gaan implementeren in mijn werk.
 Ook hebben we het gehad over repositories in Github en daarvan heb ik voor dit project ook eentje aangemaakt.
 
