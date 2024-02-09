@@ -580,11 +580,11 @@ for (let i = 1; i <= 10; i++) {
 /* OPDRACHT 3: While loop */
 // Programmmer de herhalingen van opdracht 1 met een while loop
 
-/* let i = 0; 
+let i = 0; 
 while(i < 5) {
  i++
  console.log(i)
-} */
+}
 
 /* OPDRACHT 4: While loop */
 // Programmmer de herhalingen van opdracht 2 met een while loop
