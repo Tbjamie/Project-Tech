@@ -642,6 +642,49 @@ for (let waarden in telefoon) {
   <summary>EXTRA OEFENING (FILTEREN)</summary> <br>
 
   ```javascript
+let valorant = {
+    name: "VALORANT",
+    genre: "FPS",
+    multiplayer: true,
+    developer: "Riot Games",
+    rating: 5
+}
+
+let leagueoflegends = {
+    name: "League of Legends",
+    genre: "MOBA",
+    multiplayer: true,
+    developer: "Riot Games",
+    rating: 4.5
+}
+
+let csgo = {
+    name: "CS:GO",
+    genre: "FPS",
+    multiplayer: true,
+    developer: "Valve",
+    rating: 4
+}
+
+let assasinscreed = {
+    name: "Assasin's Creed",
+    genre: ["Action", "Adventure", "Stealth"],
+    multiplayer: false,
+    developer: "Ubisoft",
+    rating: 3
+}
+
+let games = [valorant, csgo, leagueoflegends, assasinscreed]
+
+console.log(games)
+
+games.forEach(game => console.log(game.rating))
+
+const FPSgames = games.filter(game => game.genre == "FPS" && game.rating > 4.5).forEach(game => console.log(game.name));
+
+// console.log(FPSgames);
+
+// FPSgames.forEach(game => console.log(game));
 
 ```
 </details>
