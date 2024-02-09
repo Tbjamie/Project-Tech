@@ -498,7 +498,7 @@ concateneerStringsArrow("Welkom,", "Jamie");
 </details> <br>
 
 <details>
- <summary>OEFENING 7</summary>
+ <summary>OEFENING 7</summary> <br>
 
  ```javascript
  /* Met de toetscombinatie [CMD] + [/] kun je '//' voor de regel weghalen en terugplaatsen */
