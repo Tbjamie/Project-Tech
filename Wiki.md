@@ -532,11 +532,16 @@ console.log(persoon['hasJob'])
 /* OPDRACHT 4: Methode */
 // Voeg een methode verjaardagVieren toe aan het persoon-object. Deze methode moet de leeftijd van de persoon met één verhogen. Je kan binnen het object naar de eigenschap leeftijd verwijzen met "this.leeftijd".
 
-persoon.verjaardagVieren = function() {
-    this.leeftijd = 31
-}
+let persoon = {
+   naam: "John",
+   leeftijd: 30,
+   verjaardagVieren() {
+       this.leeftijd++;
+       console.log(this.leeftijd)
+   }
+};
 
-persoon.verjaardagVieren()
+persoon.verjaardagVieren();
 
 console.log(persoon.leeftijd)
 
