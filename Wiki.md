@@ -495,6 +495,61 @@ let concateneerStringsArrow = (string1, string2) => {
 concateneerStringsArrow("Welkom,", "Jamie");
 ```
 
-</details>
+</details> <br>
+
+<details>
+ <summary>OEFENING 7</summary>
+
+ ```javascript
+ /* Met de toetscombinatie [CMD] + [/] kun je '//' voor de regel weghalen en terugplaatsen */
+
+/* OPDRACHT 1: Definieer een object */
+// Definieer een eenvoudig object met de naam persoon dat de eigenschappen naam en leeftijd heeft. Geef het object de waarden "John" voor naam en 30 voor leeftijd.
+
+let persoon = {
+    naam: "John",
+    leeftijd: 30
+};
+
+/* OPDRACHT 2: Uitbreiding */
+// Breid het object persoon uit met verschillende soorten eigenschappen, zoals een string, een numerieke waarde, een boolean, en een array.
+
+persoon.hobbies = ["gamen", "films kijken", "coderen"]
+persoon.achternaam = "Bakker"
+persoon.hasJob = false
+persoon.droomBaan = "developer"
+
+console.log(persoon);
+
+/* OPDRACHT 3: Dot & bracket notation */
+// Gebruik zowel dot notatie als bracket notatie om de waarde van de naam-eigenschap van het persoon-object op te halen en naar de console te loggen.
+
+console.log(persoon.naam)
+console.log(persoon.achternaam)
+console.log(persoon['droomBaan'])
+console.log(persoon['hasJob'])
+
+/* OPDRACHT 4: Methode */
+// Voeg een methode verjaardagVieren toe aan het persoon-object. Deze methode moet de leeftijd van de persoon met één verhogen. Je kan binnen het object naar de eigenschap leeftijd verwijzen met "this.leeftijd".
+
+persoon.verjaardagVieren = function() {
+    this.leeftijd = 31
+}
+
+persoon.verjaardagVieren()
+
+console.log(persoon.leeftijd)
+
+/* OPDRACHT 5: Boodschap loggen */
+// Breid de methode verjaardagVieren uit om een bericht naar de console te loggen waarin de naam en nieuwe leeftijd van de persoon worden weergegeven.
+
+
+persoon.verjaardagVieren = function() {
+    console.log(`Gefeliciteerd ${this.naam}, je bent alweer ${this.leeftijd}!`);
+}
+
+persoon.verjaardagVieren();
+```
+</details> <br>
 
 ### Les 4
