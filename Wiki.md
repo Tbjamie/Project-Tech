@@ -567,14 +567,14 @@ persoon.verjaardagVieren();
 // Schrijf een for-loop die de getallen van 1 tot 5 logt naar de console.
 
 for (let i = 1; i <= 5; i++) {
-    console.log(i)
+   console.log(i)
 }
 
 /* OPDRACHT 2: For loop - Maak de tafel van 3 */
 // Schrijf een for-loop die de tafel van 3 logt naar de console (van 3 tot 30).
 
-for (let i = 1; i <= 10; i++) {
-    console.log(i * 3)
+for (let i = 0; i <= 30; i+=3) {
+   console.log(i)
 }
 
 /* OPDRACHT 3: While loop */
@@ -582,17 +582,17 @@ for (let i = 1; i <= 10; i++) {
 
 let i = 0; 
 while(i < 5) {
- i++
- console.log(i)
+i++
+console.log(i)
 }
 
 /* OPDRACHT 4: While loop */
 // Programmmer de herhalingen van opdracht 2 met een while loop
 
 let i = 0; 
-while(i < 10) {
- i++
- console.log(i * 3)
+while(i < 30) {
+i+=3
+console.log(i)
 }
 
 
@@ -602,7 +602,7 @@ while(i < 10) {
 let kleuren = ['rood', 'groen', 'blauw']
 
 for (let kleur of kleuren) {
-    console.log(kleur);
+   console.log(kleur);
 }
 
 
@@ -612,7 +612,7 @@ for (let kleur of kleuren) {
 let woorden = ['appel', 'banaan', 'kiwi']
 
 for (let letters of woorden) {
-    console.log(letters.length)
+   console.log(letters.length)
 }
 
 
@@ -622,7 +622,7 @@ for (let letters of woorden) {
 let persoon = { naam: 'John', leeftijd: 25, stad: 'Amsterdam' }
 
 for (let property in persoon) {
-    console.log(`${property}: ${persoon[property]}`)
+   console.log(`${property}: ${persoon[property]}`)
 }
 
 
@@ -632,7 +632,7 @@ for (let property in persoon) {
 let telefoon = { merk: 'Samsung', model: 'Galaxy', jaar: 2022 }
 
 for (let waarden in telefoon) {
-    console.log(`${telefoon[waarden]}`);
+   console.log(`${telefoon[waarden]}`);
 }
 
 ```
