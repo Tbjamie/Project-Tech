@@ -636,6 +636,14 @@ for (let waarden in telefoon) {
 }
 
 ```
+</details> <br>
+
+<details>
+  <summary>EXTRA OEFENING (FILTEREN)</summary> <br>
+
+  ```javascript
+
+```
 </details>
 
 ### Les 4
