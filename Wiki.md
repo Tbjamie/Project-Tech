@@ -690,3 +690,6 @@ const FPSgames = games.filter(game => game.genre == "FPS" && game.rating > 4.5).
 </details>
 
 ### Les 4
+
+In les 4 hebben we voor het eerst kennis gemaakt met JSON. We hebben geleerd hoe je JSON file om kan zetten naar een JavaScript object
+en andersom en we hebben hierbij ook de volgende oefening gemaakt.
