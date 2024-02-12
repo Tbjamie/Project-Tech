@@ -696,7 +696,9 @@ In les 4 hebben we voor het eerst kennis gemaakt met JSON. We hebben het gehad o
 * JSON-notatie & -bestanden
 * Fetch Web API & lokaal JSON bestand
 * Promise afhandelen met .then()
-* Fetch in Async functie met await
+* Fetch in Async functie met await <br>
+
+**De code hiervan is:**
 
 <details>
   <summary>OEFENING 9</summary> <br>
