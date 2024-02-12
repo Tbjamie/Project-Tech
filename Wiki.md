@@ -737,18 +737,12 @@ fetch('games.json')
         return response.json()
     })
     .then(allGames => {
-        // const games = allGames.games
-        // console.log(games)
         allGames.games.forEach(game => {
             console.log(game.name)
             const liElement = document.createElement('li')
             liElement.innerText = game.name
             ulElement.appendChild(liElement)
             h1Element.innerText = "Games"
-            // maak een li 
-            // zet de naam van de game in de li
-            // hang de li onder de ul
-            
         })
     })
     .catch(error => {
