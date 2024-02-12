@@ -693,3 +693,39 @@ const FPSgames = games.filter(game => game.genre == "FPS" && game.rating > 4.5).
 
 In les 4 hebben we voor het eerst kennis gemaakt met JSON. We hebben geleerd hoe je JSON file om kan zetten naar een JavaScript object
 en andersom en we hebben hierbij ook de volgende oefening gemaakt.
+
+* JSON-notatie & -bestanden
+* Fetch Web API & lokaal JSON bestand
+* Promise afhandelen met .then()
+* Fetch in Async functie met await
+
+<details>
+  <summary>OEFENING 9</summary> <br>
+
+  ```javascript
+fetch('games.json')
+    .then(response => {
+        if(!response.ok) {
+            throw new Error('Er is een error')
+        }
+        return response.json()
+    })
+    .then(allGames => {
+        // const games = allGames.games
+        // console.log(games)
+        allGames.games.forEach(game => {
+            console.log(game.name)
+            const liElement = document.createElement('li')
+            liElement.innerText = game.name
+            ulElement.appendChild(liElement)
+            h1Element.innerText = "Games"
+            // maak een li 
+            // zet de naam van de game in de li
+            // hang de li onder de ul
+            
+        })
+    })
+    .catch(error => {
+        console.error('Er heeft een fout plaatsgevonden')
+    })
+```
