@@ -729,3 +729,30 @@ fetch('games.json')
         console.error('Er heeft een fout plaatsgevonden')
     })
 ```
+
+```json
+{
+    "games": [
+        {
+            "name": "VALORANT",
+            "genre": "FPS",
+            "rating": 5
+        },
+        {
+            "name": "League of Legends",
+            "genre": "MOBA",
+            "rating": 4.5
+        },
+        {
+            "name": "CS:GO",
+            "genre": "FPS",
+            "rating": 3
+        },
+        {
+            "name": "Assasin's Creed",
+            "genre": "Action-Adventure",
+            "rating": 4
+        }
+    ]
+}
+```
