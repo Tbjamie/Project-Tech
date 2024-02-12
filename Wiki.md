@@ -691,8 +691,7 @@ const FPSgames = games.filter(game => game.genre == "FPS" && game.rating > 4.5).
 
 ### Les 4
 
-In les 4 hebben we voor het eerst kennis gemaakt met JSON. We hebben geleerd hoe je JSON file om kan zetten naar een JavaScript object
-en andersom en we hebben hierbij ook de volgende oefening gemaakt.
+In les 4 hebben we voor het eerst kennis gemaakt met JSON. We hebben het gehad over de volgende onderwerpen en daar hebben we ook een opdracht bij gemaakt:
 
 * JSON-notatie & -bestanden
 * Fetch Web API & lokaal JSON bestand
@@ -701,6 +700,33 @@ en andersom en we hebben hierbij ook de volgende oefening gemaakt.
 
 <details>
   <summary>OEFENING 9</summary> <br>
+
+  ```json
+{
+    "games": [
+        {
+            "name": "VALORANT",
+            "genre": "FPS",
+            "rating": 5
+        },
+        {
+            "name": "League of Legends",
+            "genre": "MOBA",
+            "rating": 4.5
+        },
+        {
+            "name": "CS:GO",
+            "genre": "FPS",
+            "rating": 3
+        },
+        {
+            "name": "Assasin's Creed",
+            "genre": "Action-Adventure",
+            "rating": 4
+        }
+    ]
+}
+```
 
   ```javascript
 fetch('games.json')
@@ -729,30 +755,4 @@ fetch('games.json')
         console.error('Er heeft een fout plaatsgevonden')
     })
 ```
-
-```json
-{
-    "games": [
-        {
-            "name": "VALORANT",
-            "genre": "FPS",
-            "rating": 5
-        },
-        {
-            "name": "League of Legends",
-            "genre": "MOBA",
-            "rating": 4.5
-        },
-        {
-            "name": "CS:GO",
-            "genre": "FPS",
-            "rating": 3
-        },
-        {
-            "name": "Assasin's Creed",
-            "genre": "Action-Adventure",
-            "rating": 4
-        }
-    ]
-}
-```
+</details>
